@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@1,300&family=M+PLUS+Rounded+1c:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Unica+One&display=swap");
 
 .App {
   text-align: center;
@@ -16,6 +16,16 @@
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
+}
+
+#navDots {
+  position: fixed;
+  top: 1em;
+  left: 1em;
+  height: 1.5em;
+  width: 1.5em;
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 4em;
 }
 
 #headerInfo {
@@ -43,7 +53,7 @@
   padding-top: 1em;
   color: rgb(255, 255, 255);
   font-size: 1.5em;
-  font-family: "Barlow Condensed", sans-serif;
+  font-family: "Unica One", cursive;
 }
 
 #headerName {
@@ -51,7 +61,7 @@
   padding-top: 0.25em;
   color: #ffffff;
   font-size: 3em;
-  font-family: "Barlow Condensed", sans-serif;
+  font-family: "Unica One", cursive;
 }
 
 #headerTitle {
@@ -59,47 +69,47 @@
   padding-top: 0.5em;
   color: #00bfff;
   font-size: 1.25em;
-  font-family: "M PLUS Rounded 1c", sans-serif;
+  font-family: "Unica One", cursive;
 }
 
 #headerCircle {
-  max-height: 25em;
-  max-width: 25em;
+  max-height: 20em;
+  max-width: 20em;
   border-radius: 35em;
   background-color: rgba(0, 0, 0, 0.3);
   opacity: 0;
   backdrop-filter: blur(20px);
-  animation: appear 2s ease 1 forwards; 
+  animation: appear 2s ease 1 forwards;
 }
 
 @keyframes appear {
   0% {
-    opacity: 0
+    opacity: 0;
   }
   100% {
-    opacity: 1
+    opacity: 1;
   }
 }
 
 #samboLogo {
-  max-height: 15em;
-  max-width: 15em;
+  max-height: 10em;
+  max-width: 10em;
 }
 
-#navBar {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
-  min-height: 5em;
-  min-width: 25em;
-  border-radius: 5em;
+#headerBio {
+  min-height: 40vh;
+  min-width: 80vw;
   background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 10%;
   transform: translateY(100%);
   opacity: 0;
   backdrop-filter: blur(20px);
   animation: slide-up 1s ease 1 forwards;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
+
 @keyframes slide-up {
   0% {
     transform: translateY(100%);
@@ -111,8 +121,49 @@
   }
 }
 
-/* .navBarIcons {
-  max-height: 3em;
-  max-width: 3em;
-  font-size: 3em;
-} */
+#bioTitle {
+  font-family: "Unica One", cursive;
+  color: rgb(255, 255, 255);
+  font-size: 1.5em;
+}
+
+#bioSkillStats {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.bioSkills {
+  font-family: "Unica One", cursive;
+  color: white;
+  font-size: 1em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.skillNums {
+  border-radius: 100%;
+  background-color: white;
+  color: black;
+  height: 2em;
+  width: 2em;
+  font-size: 1.25em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0.5em;
+  margin-bottom: 1em;
+}
+
+.skillLogos {
+  height: 1.75em;
+  width: 1.75em;
+  margin: 0.5em;
+}
+
+#mainCode {
+  min-height: 100vh;
+}
