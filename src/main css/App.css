@@ -18,23 +18,15 @@
   align-items: center;
 }
 
-#navDots {
-  position: fixed;
-  top: 1em;
-  left: 1em;
-  height: 1.5em;
-  width: 1.5em;
-  background-color: rgba(0, 0, 0, 0.3);
-  border-radius: 4em;
-}
-
 #headerInfo {
   display: flex;
   flex-direction: column;
+  justify-content: space-around;
+  height: 10em;
   transform: translateY(-100%);
   opacity: 0;
   backdrop-filter: blur(20px);
-  animation: fade-in 1s ease 1 forwards;
+  animation: fade-in 2s ease 1 forwards;
 }
 
 @keyframes fade-in {
@@ -50,15 +42,13 @@
 
 #headerIntro {
   margin: 0;
-  padding-top: 1em;
-  color: rgb(255, 255, 255);
+  color: #ffffff;
   font-size: 1.5em;
   font-family: "Unica One", cursive;
 }
 
 #headerName {
   margin: 0;
-  padding-top: 0.25em;
   color: #ffffff;
   font-size: 3em;
   font-family: "Unica One", cursive;
@@ -66,7 +56,6 @@
 
 #headerTitle {
   margin: 0;
-  padding-top: 0.5em;
   color: #00bfff;
   font-size: 1.25em;
   font-family: "Unica One", cursive;
@@ -75,8 +64,8 @@
 #headerCircle {
   max-height: 20em;
   max-width: 20em;
-  border-radius: 35em;
-  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 50%;
+  background: linear-gradient(#e66465, #9198e5);
   opacity: 0;
   backdrop-filter: blur(20px);
   animation: appear 2s ease 1 forwards;
@@ -96,72 +85,160 @@
   max-width: 10em;
 }
 
-#headerBio {
-  min-height: 40vh;
-  min-width: 80vw;
+#skillCircle {
+  height: 15em;
+  width: 15em;
+  position: absolute;
+  z-index: 0;
+  top: 24.75em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  transform-origin: center;
+  transform: rotate(360deg);
+  animation: rotate 10s linear infinite;
+}
+
+.skillLogos {
+  height: 1.75em;
+  width: 1.75em;
+  margin: 0em;
+}
+
+#JSLogo {
+  position: absolute;
+  top: -5%;
+  animation: modal-fade 1s ease-in;
+  offset-rotate: 180deg;
+  offset-path: circle(50% at 25% 25%);
+}
+
+#HTMLLogo {
+  position: absolute;
+  left: 95%;
+  animation: modal-fade 1s ease-in;
+  transform: rotate(90deg);
+}
+#CSSLogo {
+  position: absolute;
+  right: 95%;
+  animation: modal-fade 1s ease-in;
+  transform: rotate(-90deg);
+}
+#reactLogo {
+  position: absolute;
+  bottom: -5%;
+  animation: modal-fade 1s ease-in;
+}
+#MUILogo {
+  position: absolute;
+  top: 80%;
+  left: 80%;
+  animation: modal-fade 1s ease-in;
+  transform: rotate(135deg);
+}
+#BSLogo {
+  position: absolute;
+  top: 80%;
+  right: 80%;
+  animation: modal-fade 1s ease-in;
+  transform: rotate(-135deg);
+}
+#FBLogo {
+  position: absolute;
+  bottom: 80%;
+  left: 80%;
+  animation: modal-fade 1s ease-in;
+  transform: rotate(45deg);
+}
+#MDBLogo {
+  position: absolute;
+  bottom: 80%;
+  right: 80%;
+  animation: modal-fade 1s ease-in;
+  transform: rotate(-45deg);
+}
+
+@keyframes modal-fade {
+  0% {
+    opacity: 0;
+    offset-distance: 100%;
+  }
+  100% {
+    opacity: 1;
+    offset-distance: 100%;
+  }
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+#navBar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 20em;
+  border-radius: 2em;
   background-color: rgba(0, 0, 0, 0.3);
-  border-radius: 10%;
   transform: translateY(100%);
   opacity: 0;
   backdrop-filter: blur(20px);
-  animation: slide-up 1s ease 1 forwards;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
+  animation: slide-up 2s ease 1 forwards;
 }
 
 @keyframes slide-up {
   0% {
     transform: translateY(100%);
     opacity: 0;
+    width: 5em;
   }
   100% {
     transform: translateY(0%);
     opacity: 1;
+    width: 20em;
   }
 }
 
-#bioTitle {
-  font-family: "Unica One", cursive;
-  color: rgb(255, 255, 255);
-  font-size: 1.5em;
-}
-
-#bioSkillStats {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: flex-start;
-}
-
-.bioSkills {
-  font-family: "Unica One", cursive;
-  color: white;
-  font-size: 1em;
+.navButtons {
+  width: 3em;
+  height: 3em;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
 }
 
-.skillNums {
-  border-radius: 100%;
-  background-color: white;
-  color: black;
-  height: 2em;
-  width: 2em;
-  font-size: 1.25em;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 0.5em;
-  margin-bottom: 1em;
+#navCode {
+  height: 1.5em;
+  width: 1.5em;
+  color: white;
 }
 
-.skillLogos {
-  height: 1.75em;
-  width: 1.75em;
-  margin: 0.5em;
+#navWork {
+  height: 1.5em;
+  width: 1.5em;
+  color: white;
+}
+
+
+#navAbout {
+  height: 1.5em;
+  width: 1.5em;
+  color: white;
+}
+
+#navContact {
+  height: 1.5em;
+  width: 1.5em;
+  color: white;
 }
 
 #mainCode {
