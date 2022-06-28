@@ -8,12 +8,11 @@ import { BsFillPhoneFill } from "react-icons/bs";
 import SkillCircle from "./skillCircle.js";
 
 function Header() {
-
   return (
     <header className="header">
       <div id="headerInfo">
         <p id="headerIntro">
-          I <span style={{ color: "#00bfff" }}>'</span> M
+          I <span style={{ color: "#000000" }}>'</span> M
         </p>
         <p id="headerName">SAM</p>
         <p id="headerTitle">
@@ -29,6 +28,11 @@ function Header() {
         />
       </div>
       <div id="navBar">
+        {/* 
+          Needed: Event Listener
+          To: Listen to window scroll
+          Then: Based on scroll nav bar is fixed to the top of the window
+         */}
         <div className="navButtons">
           <BsFileCode id="navCode" alt="Navigation Bar Button Code" />
         </div>
