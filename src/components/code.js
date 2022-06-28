@@ -12,6 +12,7 @@ import HKU from "../assets/heroku-icon.svg";
 import GH from "../assets/GitHub-Mark-64px.png";
 
 function Code() {
+    
   const [blur, setBlur] = useState(true);
 
   function handleImgBlur(e) {
