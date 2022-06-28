@@ -60,15 +60,9 @@ function Code() {
         </div>
         <p id="pOneTagClose">&lt;/projectOne&gt;</p>
       </div>
-      <div className="projectCards">
-          {/* Project 2 */}
-      </div>
-      <div className="projectCards">
-          {/* Project 3 */}
-      </div>
-      <div className="projectCards">
-          {/* Github Card */}
-      </div>
+      <div className="projectCards"></div>
+      <div className="projectCards"></div>
+      <div className="projectCards"></div>
     </div>
   );
 }
