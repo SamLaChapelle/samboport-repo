@@ -1,6 +1,7 @@
 import "./main css/App.css";
 import Header from "./components/header.js";
 import Code from "./components/code.js";
+import Work from "./components/work.js";
 
 function App() {
   return (
@@ -13,6 +14,9 @@ function App() {
       <p id="projectsTextOne">&lt;projects&gt;</p>
       <Code />
       <p id="projectsTextTwo">&lt;/projects&gt;</p>
+      <p id="workTextOne">&lt;work&gt;</p>
+      <Work />
+      <p id="workTextTwo">&lt;/work&gt;</p>
       <p id="bodyTextTwo">&lt;/body&gt;</p>
       <p id="htmlTextTwo">&lt;/html&gt;</p>
     </div>
