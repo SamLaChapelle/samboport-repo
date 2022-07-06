@@ -4,7 +4,6 @@ import samboLogo from "../assets/samboLogo.PNG";
 import { BsFileCode } from "react-icons/bs";
 import { BsBriefcaseFill } from "react-icons/bs";
 import { BsFillFileEarmarkPersonFill } from "react-icons/bs";
-import { BsFillPhoneFill } from "react-icons/bs";
 import SkillCircle from "./skillCircle.js";
 
 function Header() {
@@ -28,28 +27,23 @@ function Header() {
         />
       </div>
       <div id="navBar">
-        {/* 
-          Needed: Event Listener
-          To: Listen to window scroll
-          Then: Based on scroll nav bar is fixed to the top of the window
-         */}
         <div className="navButtons">
-          <BsFileCode id="navCode" alt="Navigation Bar Button Code" />
+          <a href="/#mainCode">
+            <BsFileCode id="navCode" alt="Navigation Bar Button Code" />
+          </a>
         </div>
         <div className="navButtons">
-          <BsBriefcaseFill id="navWork" alt="Navigation Bar Button Work" />
+          <a href="/#mainWork">
+            <BsBriefcaseFill id="navWork" alt="Navigation Bar Button Work" />
+          </a>
         </div>
         <div className="navButtons">
-          <BsFillFileEarmarkPersonFill
-            id="navAbout"
-            alt="Navigation Bar Button About"
-          />
-        </div>
-        <div className="navButtons">
-          <BsFillPhoneFill
-            id="navContact"
-            alt="Navigation Bar Button Contact"
-          />
+          <a href="/#mainAbout">
+            <BsFillFileEarmarkPersonFill
+              id="navAbout"
+              alt="Navigation Bar Button About"
+            />
+          </a>
         </div>
       </div>
     </header>

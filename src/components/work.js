@@ -9,7 +9,8 @@ function Work() {
         <div id="workResume">
           <a href={Resume} download="Sam's Resume.PDF">
              <img id="compSVG" src={computerSVG} alt="computer svg" />
-          </a>   
+          </a>
+          Download Resume
         </div>
         <p id="workDesc">
           While most of my work experience involves either coaching or

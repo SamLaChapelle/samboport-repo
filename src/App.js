@@ -2,6 +2,7 @@ import "./main css/App.css";
 import Header from "./components/header.js";
 import Code from "./components/code.js";
 import Work from "./components/work.js";
+import About from "./components/about.js";
 
 function App() {
   return (
@@ -17,8 +18,12 @@ function App() {
       <p id="workTextOne">&lt;work&gt;</p>
       <Work />
       <p id="workTextTwo">&lt;/work&gt;</p>
+      <p id="aboutTextTwo">&lt;about&gt;</p>
+      <About />
+      <p id="aboutTextTwo">&lt;/about&gt;</p>
       <p id="bodyTextTwo">&lt;/body&gt;</p>
       <p id="htmlTextTwo">&lt;/html&gt;</p>
+      
     </div>
   );
 }
