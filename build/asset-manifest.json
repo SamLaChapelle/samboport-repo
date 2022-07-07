@@ -1,16 +1,35 @@
 {
   "files": {
-    "main.css": "/static/css/main.073c9b0a.css",
-    "main.js": "/static/js/main.b85b0be5.js",
+    "main.css": "/static/css/main.a856741c.css",
+    "main.js": "/static/js/main.a15a2461.js",
     "static/js/512.2ba4e68f.chunk.js": "/static/js/512.2ba4e68f.chunk.js",
-    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/yestermorrowPic.png": "/static/media/yestermorrowPic.695c9d2cdbc9c69bd6d4.png",
+    "static/media/githubPic.png": "/static/media/githubPic.800a1b4a83064c23a43e.png",
+    "static/media/SNS preview pic.png": "/static/media/SNS preview pic.633d4d5d4d2e561feed0.png",
+    "static/media/aboutPic.png": "/static/media/aboutPic.1926110630061df449e3.png",
+    "static/media/bootstrap-icons.woff?": "/static/media/bootstrap-icons.7ff3ca6fa798de3f8ac2.woff",
+    "static/media/samboLogo.PNG": "/static/media/samboLogo.07d9c6ee6840c4c5c215.PNG",
+    "static/media/bootstrap-icons.woff2?": "/static/media/bootstrap-icons.f2539a501be3a673de05.woff2",
+    "static/media/theePortfolioPic.png": "/static/media/theePortfolioPic.ec8e0957931e361d1f2c.png",
+    "static/media/Sam LaChapelle Resume.pdf": "/static/media/Sam LaChapelle Resume.7c4ee897121f558df6f6.pdf",
+    "static/media/react-svgrepo-com.svg": "/static/media/react-svgrepo-com.fdd3331d261ad6d5e1c92448737aa2aa.svg",
+    "static/media/html-svgrepo-com.svg": "/static/media/html-svgrepo-com.4395a089ee4b1338c0e94e212b6dd055.svg",
+    "static/media/firebase-svgrepo-com.svg": "/static/media/firebase-svgrepo-com.4d1511982aab4c202664c0ab14217590.svg",
+    "static/media/bootstrap-svgrepo-com.svg": "/static/media/bootstrap-svgrepo-com.527d0fc09fb3280153c26f0046a517a9.svg",
+    "static/media/work-svgrepo-com.svg": "/static/media/work-svgrepo-com.fa8b2b04a8c2b5930b87b1f451cf3f80.svg",
+    "static/media/css-svgrepo-com.svg": "/static/media/css-svgrepo-com.aec31ad6887c3a820a1b3b8e2b9d9937.svg",
+    "static/media/material-ui-svgrepo-com.svg": "/static/media/material-ui-svgrepo-com.456bfb02539777f812137c514d397868.svg",
+    "static/media/express-svgrepo-com(1).svg": "/static/media/express-svgrepo-com(1).e0be243e017ae97d906bf5f755016047.svg",
+    "static/media/mongodb-svgrepo-com.svg": "/static/media/mongodb-svgrepo-com.67761c18dd27879104c98bfc4930d459.svg",
     "index.html": "/index.html",
-    "main.073c9b0a.css.map": "/static/css/main.073c9b0a.css.map",
-    "main.b85b0be5.js.map": "/static/js/main.b85b0be5.js.map",
+    "static/media/js-svgrepo-com.svg": "/static/media/js-svgrepo-com.0dd1cf6c80bb500c655a617006c1148a.svg",
+    "static/media/heroku-icon.svg": "/static/media/heroku-icon.68909cdaab8fd7949293dc7399eeb98b.svg",
+    "main.a856741c.css.map": "/static/css/main.a856741c.css.map",
+    "main.a15a2461.js.map": "/static/js/main.a15a2461.js.map",
     "512.2ba4e68f.chunk.js.map": "/static/js/512.2ba4e68f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.b85b0be5.js"
+    "static/css/main.a856741c.css",
+    "static/js/main.a15a2461.js"
   ]
 }
