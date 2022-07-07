@@ -4,6 +4,7 @@ import { BsInstagram } from "react-icons/bs";
 import { BsLinkedin } from "react-icons/bs";
 import { BsEnvelope } from "react-icons/bs";
 import { BsPhoneFill } from "react-icons/bs";
+import { BsArrowUpCircle } from "react-icons/bs";
 
 function About() {
   return (
@@ -47,6 +48,12 @@ function About() {
         <a href="tel:804-549-3887">
           <BsPhoneFill className="aboutIcons" />
         </a>
+      </div>
+      <div id="bttDiv">
+        <a href="/#header">
+          <BsArrowUpCircle id="bttArrow" />
+        </a>
+        <p id="bttP">Back To Top</p>
       </div>
     </div>
   );

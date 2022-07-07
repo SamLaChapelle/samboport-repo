@@ -5,13 +5,13 @@ import computerSVG from "../assets/work-svgrepo-com.svg";
 function Work() {
   return (
     <div id="mainWork">
+      <div id="workResume">
+        <a href={Resume} download="Sam's Resume.PDF">
+          <img id="compSVG" src={computerSVG} alt="computer svg" />
+        </a>
+        Download Resume
+      </div>
       <div id="workCard">
-        <div id="workResume">
-          <a href={Resume} download="Sam's Resume.PDF">
-             <img id="compSVG" src={computerSVG} alt="computer svg" />
-          </a>
-          Download Resume
-        </div>
         <p id="workDesc">
           While most of my work experience involves either coaching or
           hospitality, I have been involved in creative pursuits since high
@@ -25,7 +25,7 @@ function Work() {
         </p>
         <ul id="workList">
           <b>PROFESSIONAL EXPERIENCE</b>
-          <br/>
+          <br />
           <li>Yestermorrow Design & Build School | Aug 2021 - Oct 2021</li>
           <li>Shield N Sheath | April 2022 - May 2022</li>
           <li>Sambo Sauce Portfolio | June 2022</li>

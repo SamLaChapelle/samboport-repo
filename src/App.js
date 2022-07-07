@@ -23,7 +23,7 @@ function App() {
       <p id="aboutTextTwo">&lt;/about&gt;</p>
       <p id="bodyTextTwo">&lt;/body&gt;</p>
       <p id="htmlTextTwo">&lt;/html&gt;</p>
-      
+
     </div>
   );
 }

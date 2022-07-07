@@ -470,7 +470,7 @@
 }
 
 #mainWork {
-  height: 35em;
+  height: 30em;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -478,7 +478,7 @@
 }
 
 #workCard {
-  height: 30em;
+  height: 15em;
   width: 25em;
   background-color: #ffffff;
   border-radius: 0.5em;
@@ -501,6 +501,8 @@
 #compSVG {
   height: 10em;
   width: 10em;
+  border-radius: 50%;
+  box-shadow: #00000040 5px 10px 15px 5px;
 }
 
 #workDesc {
@@ -522,7 +524,7 @@
 }
 
 #mainAbout {
-  height: 30em;
+  height: 35em;
 }
 
 #aboutTop {
@@ -603,4 +605,25 @@
 
 .aboutIcons:visited {
   color: black;
+}
+
+#bttDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5em;
+}
+
+#bttArrow {
+  height: 1.5em;
+  width: 1.5em;
+  color: black;
+}
+
+#bttP {
+  font-family: "Caveat", cursive;
+  margin: 0;
+  font-size: 1.5em;
+  color: black;
+  text-decoration: none;
 }
