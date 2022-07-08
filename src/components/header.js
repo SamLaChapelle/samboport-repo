@@ -3,7 +3,7 @@ import "bootstrap-icons/font/bootstrap-icons.css";
 import samboLogo from "../assets/samboLogo.PNG";
 import { BsFileCode } from "react-icons/bs";
 import { BsBriefcaseFill } from "react-icons/bs";
-import { BsFillFileEarmarkPersonFill } from "react-icons/bs"; 
+import { BsFillFileEarmarkPersonFill } from "react-icons/bs";
 import SkillCircle from "./skillCircle.js";
 
 function Header() {
@@ -18,8 +18,9 @@ function Header() {
           <b>FULL STACK SOFTWARE DEVELOPER</b>
         </p>
       </div>
-      <SkillCircle />
+
       <div id="headerCircle">
+        <SkillCircle />
         <img
           id="samboLogo"
           src={samboLogo}
