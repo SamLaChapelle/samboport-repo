@@ -1,9 +1,4 @@
 import React from "react";
-import { useState } from "react";
-import pOnePic from "../assets/projectPics/yestermorrowPic.png";
-import pTwoPic from "../assets/projectPics/SNS preview pic.png";
-import pThreePic from "../assets/theePortfolioPic.png";
-import pFourPic from "../assets/projectPics/githubPic.png";
 import JS from "../assets/js-svgrepo-com.svg";
 import HTML from "../assets/html-svgrepo-com.svg";
 import CSS from "../assets/css-svgrepo-com.svg";
@@ -16,63 +11,15 @@ import HKU from "../assets/heroku-icon.svg";
 import GH from "../assets/GitHub-Mark-64px.png";
 
 function Code() {
-  const [imgOne, setImgOne] = useState(true);
-  const [imgTwo, setImgTwo] = useState(true);
-  const [imgThree, setImgThree] = useState(true);
-  const [imgFour, setImgFour] = useState(true);
-
-  function handlePOneImg(e) {
-    e.preventDefault();
-    if (imgOne === true) {
-      setImgOne(false);
-    } else if (imgOne === false) {
-      setImgOne(true);
-    }
-  }
-
-  function handlePTwoImg(e) {
-    e.preventDefault();
-    if (imgTwo === true) {
-      setImgTwo(false);
-    } else if (imgTwo === false) {
-      setImgTwo(true);
-    }
-  }
-
-  function handlePThreeImg(e) {
-    e.preventDefault();
-    if (imgThree === true) {
-      setImgThree(false);
-    } else if (imgThree === false) {
-      setImgThree(true);
-    }
-  }
-
-  function handlePFourImg(e) {
-    e.preventDefault();
-    if (imgFour === true) {
-      setImgFour(false);
-    } else if (imgFour === false) {
-      setImgFour(true);
-    }
-  }
 
   return (
     <div id="mainCode">
       <div className="projectCards">
         <p className="projectTags">&lt;projectOne&gt;</p>
         <p className="projectTitles">YESTERMORROW ALUMNI NETWORK</p>
-        <img
-          className="projectPics"
-          src={pOnePic}
-          alt="project one preview"
-          onClick={(e) => {
-            handlePOneImg(e);
-          }}
-          style={imgOne === true ? { filter: "blur(3px)" } : { filter: "none" }}
-        />
         <div className="projectInfos">
           <p className="projectDescs">
+            {" "}
             Member of a five-person team tasked with building a social network
             platform from scratch where the school’s alumni network can connect
             and collaborate. Features include the ability to create and
@@ -101,15 +48,6 @@ function Code() {
       <div className="projectCards">
         <p className="projectTags">&lt;projectTwo&gt;</p>
         <p className="projectTitles">SHIELD N SHEATH</p>
-        <img
-          className="projectPics"
-          src={pTwoPic}
-          alt="project one preview"
-          onClick={(e) => {
-            handlePTwoImg(e);
-          }}
-          style={imgTwo === true ? { filter: "blur(3px)" } : { filter: "none" }}
-        />
         <div className="projectInfos" id="pTwoInfo">
           <p className="projectDescs">
             Shield N Sheath Hatchet House is perfect for family, friends.
@@ -139,17 +77,6 @@ function Code() {
       <div className="projectCards">
         <p className="projectTags">&lt;projectThree&gt;</p>
         <p className="projectTitles">SAMBOSAUCE.COM</p>
-        <img
-          className="projectPics"
-          src={pThreePic}
-          alt="project one preview"
-          onClick={(e) => {
-            handlePThreeImg(e);
-          }}
-          style={
-            imgThree === true ? { filter: "blur(3px)" } : { filter: "none" }
-          }
-        />
         <div className="projectInfos" id="pThreeInfo">
           <p className="projectDescs">
             This portfolio is a simplistic one page layout with aspects of HTML
@@ -178,17 +105,6 @@ function Code() {
       <div className="projectCards">
         <p className="projectTags">&lt;projectFour&gt;</p>
         <p className="projectTitles">GIT HUB</p>
-        <img
-          className="projectPics"
-          src={pFourPic}
-          alt="project one preview"
-          onClick={(e) => {
-            handlePFourImg(e);
-          }}
-          style={
-            imgFour === true ? { filter: "blur(3px)" } : { filter: "none" }
-          }
-        />
         <div className="projectInfos" id="pFourInfo">
           <p className="projectDescs">
             For those unaware of Github. GitHub, Inc. is a provider of Internet

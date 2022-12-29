@@ -1,14 +1,32 @@
 @import url("https://fonts.googleapis.com/css2?family=Caveat&family=Rubik&family=Space+Mono&family=Unica+One&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
 
 * {
   scroll-behavior: smooth;
 }
 
 .App {
-  background: #f5f5f5;
+  background: #2b2a3a;
+  overflow-x: hidden;
 }
 
 @media only screen and (min-width: 320px) {
+
+  #navBar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    height: 4em;
+    background: #2e3344;
+  }
+
+  #SLogo1 {
+    height: 3em;
+    width: 3em;
+  }
+
   #htmlTextOne {
   margin: 0;
   font-family: "Caveat", cursive;
@@ -116,7 +134,8 @@
 }
 
 .header {
-  height: 100vh;
+  height: 90vh;
+  width: 100vw;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly ;
@@ -292,65 +311,6 @@
   }
 }
 
-#navBar {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  width: 20em;
-  border-radius: 2em;
-  background-color: rgba(0, 0, 0, 0.3);
-  transform: translateY(100%);
-  opacity: 0;
-  backdrop-filter: blur(20px);
-  animation: slide-up 2s ease 1 forwards;
-}
-
-@keyframes slide-up {
-  0% {
-    transform: translateY(100%);
-    opacity: 0;
-    width: 5em;
-  }
-  100% {
-    transform: translateY(0%);
-    opacity: 1;
-    width: 20em;
-  }
-}
-
-.navButtons {
-  width: 3em;
-  height: 3em;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
-#navCode {
-  height: 1.5em;
-  width: 1.5em;
-  color: #000000;
-}
-
-#navWork {
-  height: 1.5em;
-  width: 1.5em;
-  color: #000000;
-}
-
-#navAbout {
-  height: 1.5em;
-  width: 1.5em;
-  color: #000000;
-}
-
-#navContact {
-  height: 1.5em;
-  width: 1.5em;
-  color: #000000;
-}
-
 #mainCode {
   display: flex;
   flex-direction: column;
@@ -369,12 +329,9 @@
 }
 
 .projectTitles {
-  margin: 0;
-  width: 20em;
-  border-radius: 0.5em 0.5em 0em 0em;
-  background-color: #ffffff;
   font-family: "Unica One", cursive;
-  color: rgb(0, 0, 0);
+  font-size: 2em;
+  color: rgb(255, 255, 255);
   text-align: center;
   padding: 0.25em;
   box-shadow: #00000040 5px 5px 15px 5px;
@@ -387,10 +344,10 @@
 }
 
 .projectInfos {
-  height: 10em;
+  height: 15em;
   width: 20em;
-  background-color: #ffffff;
-  border-radius: 0em 0em 0.5em 0.5em;
+  background-color: #2e3344;
+  border-radius: 0.5em;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -399,10 +356,10 @@
 }
 
 #pTwoInfo {
-  height: 12em;
+  height: 15em;
   width: 20em;
-  background-color: #ffffff;
-  border-radius: 0em 0em 0.5em 0.5em;
+  background-color: #2e3344;
+  border-radius: 0.5em;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -411,10 +368,10 @@
 }
 
 #pThreeInfo {
-  height: 12em;
+  height: 15em;
   width: 20em;
-  background-color: #ffffff;
-  border-radius: 0em 0em 0.5em 0.5em;
+  background-color: #2e3344;
+  border-radius: 0.5em;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -423,10 +380,10 @@
 }
 
 #pFourInfo {
-  height: 12em;
+  height: 15em;
   width: 20em;
-  background-color: #ffffff;
-  border-radius: 0em 0em 0.5em 0.5em;
+  background-color: #2e3344;
+  border-radius: 0.5em;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -437,7 +394,7 @@
 .projectDescs {
   margin: 0;
   font-family: "Rubik", sans-serif;
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   text-align: center;
   padding: 0.25em;
   font-size: 0.75em;
@@ -486,13 +443,14 @@
 #workCard {
   height: 15em;
   width: 25em;
-  background-color: #ffffff;
+  background-color: #2b2a3a;
   border-radius: 0.5em;
   box-shadow: #00000040 5px 10px 15px 5px;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-content: center;
+  color: white;
 }
 
 #workResume {
@@ -501,7 +459,7 @@
   justify-content: space-around;
   align-items: center;
   font-family: "Caveat", cursive;
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
 }
 
 #compSVG {
@@ -514,7 +472,7 @@
 #workDesc {
   margin: 0;
   font-family: "Rubik", sans-serif;
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   text-align: center;
   padding: 1em;
   font-size: 0.75em;

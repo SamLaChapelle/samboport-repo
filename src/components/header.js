@@ -27,26 +27,6 @@ function Header() {
           alt="cartoon logo of Sam LaChapelle"
         />
       </div>
-      <div id="navBar">
-        <div className="navButtons">
-          <a href="/#mainCode">
-            <BsFileCode id="navCode" alt="Navigation Bar Button Code" />
-          </a>
-        </div>
-        <div className="navButtons">
-          <a href="/#mainWork">
-            <BsBriefcaseFill id="navWork" alt="Navigation Bar Button Work" />
-          </a>
-        </div>
-        <div className="navButtons">
-          <a href="/#mainAbout">
-            <BsFillFileEarmarkPersonFill
-              id="navAbout"
-              alt="Navigation Bar Button About"
-            />
-          </a>
-        </div>
-      </div>
     </header>
   );
 }
