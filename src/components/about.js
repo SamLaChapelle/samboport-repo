@@ -1,5 +1,5 @@
 import React from "react";
-import aboutPic from "../assets/aboutPic.png";
+import aboutPic from "../assets/IMG_0938.jpg";
 import { BsInstagram } from "react-icons/bs";
 import { BsLinkedin } from "react-icons/bs";
 import { BsEnvelope } from "react-icons/bs";
@@ -11,17 +11,19 @@ function About() {
     <div id="mainAbout">
       <div id="aboutTop">
         <img id="aboutPic" src={aboutPic} alt="Sam LaChapelle" />
-        <div className="aboutStats">
-          <p className="statTitles">LANG'S</p>
-          <div className="statNumbers">3</div>
-        </div>
-        <div className="aboutStats">
-          <p className="statTitles">DB'S</p>
-          <div className="statNumbers">2</div>
-        </div>
-        <div className="aboutStats">
-          <p className="statTitles">FWK'S</p>
-          <div className="statNumbers">5</div>
+        <div id="aboutStatsDiv">
+          <div className="aboutStats">
+            <p className="statTitles">LANG'S</p>
+            <div className="statNumbers">3</div>
+          </div>
+          <div className="aboutStats">
+            <p className="statTitles">DB'S</p>
+            <div className="statNumbers">2</div>
+          </div>
+          <div className="aboutStats">
+            <p className="statTitles">FWK'S</p>
+            <div className="statNumbers">5</div>
+          </div>
         </div>
       </div>
       <p id="aboutName">SAM LACHAPELLE</p>
@@ -36,17 +38,17 @@ function About() {
       </p>
       <div id="aboutIconsDiv">
         <a href="https://www.instagram.com/sambo_sauce/">
-          <BsInstagram className="aboutIcons" />
+          <BsInstagram className="aboutIcons" style={{ color: "white" }} />
         </a>
         <a href="https://www.linkedin.com/in/samuel-lachapelle-050a4b196/">
-          <BsLinkedin className="aboutIcons" />
+          <BsLinkedin className="aboutIcons" style={{ color: "white" }} />
         </a>
 
         <a href="mailto:sambosauce@gmail.com">
-          <BsEnvelope className="aboutIcons" />
+          <BsEnvelope className="aboutIcons" style={{ color: "white" }} />
         </a>
         <a href="tel:804-549-3887">
-          <BsPhoneFill className="aboutIcons" />
+          <BsPhoneFill className="aboutIcons" style={{ color: "white" }} />
         </a>
       </div>
       <div id="bttDiv">

@@ -26,8 +26,6 @@ function Code() {
             customize user profiles, login authentication, an alumni forum with
             the ability to create, share, and reply to posts, the ability to tag
             and filter, and email notifications.
-            <br />
-            Github linked to github logo below
           </p>
           <div className="projectTStacks">
             <img className="projectIcons" src={JS} alt="Javascript Logo" />
@@ -47,18 +45,13 @@ function Code() {
       </div>
       <div className="projectCards">
         <p className="projectTags">&lt;projectTwo&gt;</p>
-        <p className="projectTitles">SHIELD N SHEATH</p>
+        <p className="projectTitles">ESTHETICS WITH ALEXANDRA</p>
         <div className="projectInfos" id="pTwoInfo">
           <p className="projectDescs">
-            Shield N Sheath Hatchet House is perfect for family, friends.
-            Previously the Shield N Sheath website was out dated and did not
-            match the environment or vibe they were going for. I used the tech
-            stack below to match that vibe by creating a new website from
-            scratch. I created a simple one page scroll featuring an about
-            section, booking details, full menu, gallery, contact section and
-            links to all necessary booking/reservation forms.
-            <br />
-            Github linked to github logo below
+            This beauty portfolio website is a one page layout showcasing my clients services, place of work information, contact info and a simple about me section. Starting from scratch, the entire website including the choice of layout, color pallet and creative ideas were implemented by yours truly.
+            <br/>
+            <br/>
+            <a href="https://estheticswithalexandra.com/">ESTHETICS WITH ALEXANDRA</a>
           </p>
           <div className="projectTStacks">
             <img className="projectIcons" src={JS} alt="Javascript Logo" />
@@ -66,7 +59,7 @@ function Code() {
             <img className="projectIcons" src={CSS} alt="CSS Logo" />
             <img className="projectIcons" src={RLogo} alt="React Logo" />
             <img className="projectIcons" src={MUI} alt="Material-UI Logo" />
-            <img className="projectIcons" src={HKU} alt="Heroku Logo" />
+            <img className="projectIcons" src={FB} alt="Firebase Logo" />
             <a href="https://github.com/SamLaChapelle/sns-webiste">
               <img className="projectIcons" src={GH} alt="Github Logo" />
             </a>
@@ -85,8 +78,6 @@ function Code() {
             This is only one example of a website I can create. Need a website
             of your own? Please scroll down to the contact section to inform me
             about your ideas!
-            <br />
-            Github linked to github logo below
           </p>
           <div className="projectTStacks">
             <img className="projectIcons" src={JS} alt="Javascript Logo" />
