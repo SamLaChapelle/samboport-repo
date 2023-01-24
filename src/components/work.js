@@ -27,7 +27,6 @@ function Work() {
           <b>PROFESSIONAL EXPERIENCE</b>
           <br />
           <li>Yestermorrow Design & Build School | Aug 2021 - Oct 2021</li>
-          <li>Shield N Sheath | April 2022 - May 2022</li>
           <li>Sambo Sauce Portfolio | June 2022</li>
           <li>Esthetics With Alexandra Portfolio | Dec 2022 - Jan 2023</li>
         </ul>

@@ -1,16 +1,11 @@
 {
   "files": {
-    "main.css": "/static/css/main.6ecaa27a.css",
-    "main.js": "/static/js/main.d3282fd5.js",
+    "main.css": "/static/css/main.2d9a821e.css",
+    "main.js": "/static/js/main.f6646e50.js",
     "static/js/787.3471066a.chunk.js": "/static/js/787.3471066a.chunk.js",
-    "static/media/yestermorrowPic.png": "/static/media/yestermorrowPic.695c9d2cdbc9c69bd6d4.png",
-    "static/media/githubPic.png": "/static/media/githubPic.800a1b4a83064c23a43e.png",
-    "static/media/SNS preview pic.png": "/static/media/SNS preview pic.633d4d5d4d2e561feed0.png",
-    "static/media/aboutPic.png": "/static/media/aboutPic.1926110630061df449e3.png",
+    "static/media/IMG_0938.jpg": "/static/media/IMG_0938.ad660331ec64eaddf031.jpg",
     "static/media/bootstrap-icons.woff?": "/static/media/bootstrap-icons.7ff3ca6fa798de3f8ac2.woff",
-    "static/media/samboLogo.PNG": "/static/media/samboLogo.07d9c6ee6840c4c5c215.PNG",
     "static/media/bootstrap-icons.woff2?": "/static/media/bootstrap-icons.f2539a501be3a673de05.woff2",
-    "static/media/theePortfolioPic.png": "/static/media/theePortfolioPic.ec8e0957931e361d1f2c.png",
     "static/media/Sam LaChapelle Resume.pdf": "/static/media/Sam LaChapelle Resume.7c4ee897121f558df6f6.pdf",
     "static/media/react-svgrepo-com.svg": "/static/media/react-svgrepo-com.fdd3331d261ad6d5e1c92448737aa2aa.svg",
     "static/media/html-svgrepo-com.svg": "/static/media/html-svgrepo-com.4395a089ee4b1338c0e94e212b6dd055.svg",
@@ -24,12 +19,12 @@
     "static/media/mongodb-svgrepo-com.svg": "/static/media/mongodb-svgrepo-com.67761c18dd27879104c98bfc4930d459.svg",
     "static/media/js-svgrepo-com.svg": "/static/media/js-svgrepo-com.0dd1cf6c80bb500c655a617006c1148a.svg",
     "static/media/heroku-icon.svg": "/static/media/heroku-icon.68909cdaab8fd7949293dc7399eeb98b.svg",
-    "main.6ecaa27a.css.map": "/static/css/main.6ecaa27a.css.map",
-    "main.d3282fd5.js.map": "/static/js/main.d3282fd5.js.map",
+    "main.2d9a821e.css.map": "/static/css/main.2d9a821e.css.map",
+    "main.f6646e50.js.map": "/static/js/main.f6646e50.js.map",
     "787.3471066a.chunk.js.map": "/static/js/787.3471066a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6ecaa27a.css",
-    "static/js/main.d3282fd5.js"
+    "static/css/main.2d9a821e.css",
+    "static/js/main.f6646e50.js"
   ]
 }
