@@ -249,7 +249,7 @@ a:visited {
     top: -5%;
     animation: modal-fade 1s ease-in;
     offset-rotate: 180deg;
-    offset-path: circle(50% at 25% 25%);
+    offset-path: circle(50% at 0% 0%);
   }
 
   #HTMLLogo {
@@ -827,7 +827,7 @@ a:visited {
     top: -5%;
     animation: modal-fade 1s ease-in;
     offset-rotate: 180deg;
-    offset-path: circle(50% at 25% 25%);
+    offset-path: circle(50% at 0% 0%);
   }
 
   #HTMLLogo {
