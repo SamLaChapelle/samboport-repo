@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat&family=Rubik&family=Space+Mono&family=Unica+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap");
+
+#headerCircle {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-content: center;
+  align-items: center;
+  max-height: 40em;
+  max-width: 40em;
+  opacity: 0;
+  backdrop-filter: blur(20px);
+  animation: appear 2s ease 1 forwards;
+}
+
+@keyframes appear {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+#samboLogo {
+  max-height: 15em;
+  max-width: 15em;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 1;
+  margin-left: 14.5em;
+}
+
+#skillCircle {
+  height: 25em;
+  width: 25em;
+  position: sticky;
+  z-index: -1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  transform-origin: center;
+  transform: rotate(360deg);
+  animation: rotate 10s linear infinite;
+  margin-left: 10em;
+}
+
+.skillLogos {
+  height: 2.5em;
+  width: 2.5em;
+  margin: 0em;
+}
+
+#JSLogo {
+  position: absolute;
+  top: -5%;
+  animation: modal-fade 1s ease-in;
+  offset-rotate: 180deg;
+  offset-path: circle(50% at 0% 0%);
+}
+
+#HTMLLogo {
+  position: absolute;
+  left: 95%;
+  animation: modal-fade 1s ease-in;
+  transform: rotate(90deg);
+}
+#CSSLogo {
+  position: absolute;
+  right: 95%;
+  animation: modal-fade 1s ease-in;
+  transform: rotate(-90deg);
+}
+#reactLogo {
+  position: absolute;
+  bottom: -5%;
+  animation: modal-fade 1s ease-in;
+}
+#MUILogo {
+  position: absolute;
+  top: 80%;
+  left: 80%;
+  animation: modal-fade 1s ease-in;
+  transform: rotate(135deg);
+}
+#BSLogo {
+  position: absolute;
+  top: 80%;
+  right: 80%;
+  animation: modal-fade 1s ease-in;
+  transform: rotate(-135deg);
+}
+#FBLogo {
+  position: absolute;
+  bottom: 80%;
+  left: 80%;
+  animation: modal-fade 1s ease-in;
+  transform: rotate(45deg);
+}
+#MDBLogo {
+  position: absolute;
+  bottom: 80%;
+  right: 80%;
+  animation: modal-fade 1s ease-in;
+  transform: rotate(-45deg);
+}
+
+@keyframes modal-fade {
+  0% {
+    opacity: 0;
+    offset-distance: 100%;
+  }
+  100% {
+    opacity: 1;
+    offset-distance: 100%;
+  }
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

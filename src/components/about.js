@@ -1,4 +1,5 @@
 import React from "react";
+import "../main css/work.About.css";
 import aboutPic from "../assets/IMG_0938.jpg";
 import { BsInstagram } from "react-icons/bs";
 import { BsLinkedin } from "react-icons/bs";

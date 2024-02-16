@@ -1,0 +1,18 @@
+#mainNav {
+  height: 10vh;
+  width: 20vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+#navButtons {
+  height: 5vh;
+  width: 10vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  /* border: solid rgb(0, 0, 0);
+  border-radius: 5em; */
+}

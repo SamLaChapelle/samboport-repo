@@ -1,0 +1,158 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat&family=Rubik&family=Space+Mono&family=Unica+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap");
+
+#mainWork {
+  height: 30em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#workCard {
+  height: 15em;
+  width: 25em;
+  background-color: #2b2a3a;
+  border-radius: 0.5em;
+  box-shadow: #00000040 5px 10px 15px 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-content: center;
+  color: white;
+}
+
+#workResume {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  font-family: "Caveat", cursive;
+  color: rgb(255, 255, 255);
+}
+
+#compSVG {
+  height: 10em;
+  width: 10em;
+  border-radius: 50%;
+  box-shadow: #00000040 5px 10px 15px 5px;
+}
+
+#workDesc {
+  margin: 0;
+  font-family: "Rubik", sans-serif;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 1em;
+  font-size: 0.75em;
+}
+
+#workList {
+  margin-bottom: 1em;
+  font-family: "Rubik", sans-serif;
+  font-size: 0.75em;
+  text-align: center;
+  padding: 0;
+  list-style-type: none;
+}
+
+#mainAbout {
+  height: 35em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#aboutTop {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+#aboutPic {
+  border-radius: 2em;
+  height: 10em;
+  width: 8em;
+  box-shadow: #00000060 0px 0px 20px 5px;
+  margin: 1em;
+}
+
+#aboutStatsDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 20em;
+  margin: 1em;
+}
+
+.aboutStats {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.statTitles {
+  font-family: "Rubik", sans-serif;
+  font-size: 0.75em;
+  text-align: center;
+  padding: 0;
+  color: rgb(255, 255, 255);
+}
+
+.statNumbers {
+  background-color: #000000;
+  border-radius: 20em;
+  height: 2em;
+  width: 2em;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: "Rubik", sans-serif;
+  background-color: #2b2a3a;
+  box-shadow: #00000060 0px 0px 20px 5px;
+}
+
+#aboutName {
+  font-size: 1.5em;
+  margin: 0;
+  text-align: center;
+  font-family: "Caveat", cursive;
+  color: white;
+}
+
+#aboutMe {
+  font-size: 0.85em;
+  text-align: center;
+  font-family: "Rubik", sans-serif;
+  margin: 1em;
+  padding: 1em;
+  background-color: #2b2a3a;
+  box-shadow: #00000060 0px 0px 20px 5px;
+  color: white;
+  border-radius: 2em;
+  width: 50%;
+}
+
+#aboutIconsDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin: 3em;
+  width: 25em;
+}
+
+.aboutIcons {
+  height: 2em;
+  width: 2em;
+  color: #ffffff;
+}
+
+.aboutIcons:visited {
+  color: rgb(255, 255, 255);
+}

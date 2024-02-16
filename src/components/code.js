@@ -1,4 +1,5 @@
 import React from "react";
+import "../main css/code.css";
 import JS from "../assets/js-svgrepo-com.svg";
 import HTML from "../assets/html-svgrepo-com.svg";
 import CSS from "../assets/css-svgrepo-com.svg";
@@ -11,7 +12,6 @@ import HKU from "../assets/heroku-icon.svg";
 import GH from "../assets/GitHub-Mark-64px.png";
 
 function Code() {
-
   return (
     <div id="mainCode">
       <div className="projectCards">
@@ -48,10 +48,16 @@ function Code() {
         <p className="projectTitles">ESTHETICS WITH ALEXANDRA</p>
         <div className="projectInfos" id="pTwoInfo">
           <p className="projectDescs">
-            This beauty portfolio website is a one page layout showcasing my clients services, place of work information, contact info and a simple about me section. Starting from scratch, the entire website including the choice of layout, color pallet and creative ideas were implemented by yours truly.
-            <br/>
-            <br/>
-            <a href="https://estheticswithalexandra.com/">ESTHETICS WITH ALEXANDRA</a>
+            This beauty portfolio website is a one page layout showcasing my
+            clients services, place of work information, contact info and a
+            simple about me section. Starting from scratch, the entire website
+            including the choice of layout, color pallet and creative ideas were
+            implemented by yours truly.
+            <br />
+            <br />
+            <a href="https://estheticswithalexandra.com/">
+              ESTHETICS WITH ALEXANDRA
+            </a>
           </p>
           <div className="projectTStacks">
             <img className="projectIcons" src={JS} alt="Javascript Logo" />

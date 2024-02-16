@@ -1,4 +1,5 @@
 import React from "react";
+import "../main css/skillCirlce.css";
 import JS from "../assets/js-svgrepo-com.svg";
 import HTML from "../assets/html-svgrepo-com.svg";
 import CSS from "../assets/css-svgrepo-com.svg";

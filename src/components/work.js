@@ -1,4 +1,5 @@
 import React from "react";
+import "../main css/work.About.css";
 import Resume from "../assets/Sam LaChapelle Resume.pdf";
 import computerSVG from "../assets/work-svgrepo-com.svg";
 
