@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Caveat&family=Rubik&family=Space+Mono&family=Unica+One&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Caveat&family=Patrick+Hand+SC&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Caveat&family=Pacifico&family=Patrick+Hand+SC&display=swap");
 
 .header {
   height: 90vh;
@@ -54,7 +56,7 @@
   margin: 0;
   color: #000000;
   font-size: 5em;
-  font-family: "Unica One", cursive;
+  font-family: "Bebas Neue", sans-serif;
   padding-right: 0.25em;
 }
 
@@ -62,21 +64,21 @@
   margin: 0;
   color: #000000;
   font-size: 5em;
-  font-family: "Unica One", cursive;
+  font-family: "Bebas Neue", sans-serif;
 }
 
 #headerTitle {
   margin: 0;
   color: #000000;
   font-size: 2.5em;
-  font-family: "Unica One", cursive;
+  font-family: "Bebas Neue", sans-serif;
 }
 
 #headerTitle2 {
   margin: 0;
   color: #000000;
   font-size: 2.5em;
-  font-family: "Unica One", cursive;
+  font-family: "Bebas Neue", sans-serif;
   padding-left: 0.25em;
 }
 

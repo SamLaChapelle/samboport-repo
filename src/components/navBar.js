@@ -9,45 +9,27 @@ import AccountCircleIcon from "@mui/icons-material/AccountCircle";
 function Navbar() {
   return (
     <div id="mainNav">
-      <div id="navButtons">
-        <Stack direction="row" spacing={4}>
-          <IconButton
-            aria-label="projects"
-            color="primary"
-            sx={{
-              ":hover": {
-                bgcolor: "primary.main", // theme.palette.primary.main
-                color: "#f0ead6",
-              },
-            }}
-          >
-            <TerminalIcon />
-          </IconButton>
-          <IconButton
-            aria-label="work"
-            color="primary"
-            sx={{
-              ":hover": {
-                bgcolor: "primary.main", // theme.palette.primary.main
-                color: "#f0ead6",
-              },
-            }}
-          >
-            <ArticleIcon />
-          </IconButton>
-          <IconButton
-            aria-label="about"
-            color="primary"
-            sx={{
-              ":hover": {
-                bgcolor: "primary.main", // theme.palette.primary.main
-                color: "#f0ead6",
-              },
-            }}
-          >
-            <AccountCircleIcon />
-          </IconButton>
+      <div id="navButtonsBox">
+        <Stack direction="column" spacing={4}>
+          <div className="navButtons">
+            <IconButton aria-label="projects" color="primary" href="#mainCode">
+              <TerminalIcon />
+            </IconButton>
+          </div>
+          <div className="navButtons">
+            {" "}
+            <IconButton aria-label="work" color="primary" href="#mainWork">
+              <ArticleIcon />
+            </IconButton>
+          </div>
+          <div className="navButtons">
+            {" "}
+            <IconButton aria-label="about" color="primary" href="#mainAbout">
+              <AccountCircleIcon />
+            </IconButton>
+          </div>
         </Stack>
+        {/* Add light and dark mode switch */}
       </div>
     </div>
   );

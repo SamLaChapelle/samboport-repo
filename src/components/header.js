@@ -3,9 +3,6 @@ import "bootstrap-icons/font/bootstrap-icons.css";
 import samboLogo from "../assets/samboLogo.PNG";
 import NavBar from "./navBar.js";
 import "../main css/Header.css";
-// import { BsFileCode } from "react-icons/bs";
-// import { BsBriefcaseFill } from "react-icons/bs";
-// import { BsFillFileEarmarkPersonFill } from "react-icons/bs";
 import SkillCircle from "./skillCircle.js";
 
 function Header() {
@@ -27,9 +24,6 @@ function Header() {
       </div>
       <div id="headerMain">
         <div id="headerInfo">
-          {/* <p id="headerIntro">
-          I <span style={{ color: "#ffffff" }}>'</span> M
-        </p> */}
           <p id="name">
             <b id="headerName">SAM</b>
             <b id="headerName2">LACHAPELLE</b>
@@ -53,3 +47,6 @@ function Header() {
 }
 
 export default Header;
+
+// Spice up Name / Title
+// Make Nav Bar vertical and sticky to entire page (floating)

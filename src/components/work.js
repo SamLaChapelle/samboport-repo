@@ -37,3 +37,5 @@ function Work() {
 }
 
 export default Work;
+
+//Combine work and about (mainly work with about drizzled in)
